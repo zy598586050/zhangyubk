@@ -25,6 +25,7 @@ const overlay = document.querySelector("[data-overlay]");
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
+const modalTime = document.querySelector("[data-modal-time]");
 const modalText = document.querySelector("[data-modal-text]");
 
 // modal toggle function
@@ -41,6 +42,7 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
     modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
     modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
+    modalTime.innerHTML = this.querySelector("[data-testimonials-time]").innerHTML;
     modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
 
     testimonialsModalFunc();
@@ -82,7 +84,7 @@ const filterFunc = function (selectedValue) {
 
   for (let i = 0; i < filterItems.length; i++) {
 
-    if (selectedValue === "all") {
+    if (selectedValue === "所有") {
       filterItems[i].classList.add("active");
     } else if (selectedValue === filterItems[i].dataset.category) {
       filterItems[i].classList.add("active");
@@ -134,6 +136,19 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+formBtn.addEventListener("click", function (event) {
+  event.preventDefault();
+
+  const name = encodeURIComponent(document.querySelector("input[name='name']").value);
+  const phone = encodeURIComponent(document.querySelector("input[name='phone']").value);
+  const message = encodeURIComponent(document.querySelector("textarea[name='message']").value);
+
+  if (form.checkValidity()) {
+    window.open(`https://wj.qq.com/s2/18049699/crzs?Q1=${name}&Q2=${phone}&Q3=${message}`, "_blank")
+  } else {
+    alert('请先完善表单')
+  }
+})
 
 
 // page navigation variables

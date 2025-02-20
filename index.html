@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>张宇的个人博客</title>
-  <meta name="description" content="张宇的个人博客，分享前端开发经验、技术教程、项目实践及行业动态。专注于HTML、CSS、JavaScript、React、Vue等前端技术，致力于提升开发效率与用户体验。" >
-  <meta name="keywords" content="前端开发, 张宇, 个人博客, HTML, CSS, JavaScript, React, Vue, 前端教程, 前端项目, 前端技术, 用户体验, 开发效率" >
+  <meta name="description"
+    content="张宇的个人博客，分享前端开发经验、技术教程、项目实践及行业动态。专注于HTML、CSS、JavaScript、React、Vue等前端技术，致力于提升开发效率与用户体验。">
+  <meta name="keywords" content="前端开发, 张宇, 个人博客, HTML, CSS, JavaScript, React, Vue, 前端教程, 前端项目, 前端技术, 用户体验, 开发效率">
 
   <!--
     - favicon
@@ -44,17 +45,17 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/avatar.png" alt="zhangyu" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">张宇</h1>
+          <h1 class="name" title="zhangyu">张宇</h1>
 
           <p class="title">前端工程师</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span>显示联系人</span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -98,7 +99,7 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
             <div class="contact-info">
@@ -130,20 +131,23 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="https://github.com/zy598586050" class="social-link">
+            <a href="https://github.com/zy598586050" target="_blank" class="social-link">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="#" class="social-link wechat-link">
+              <ion-icon name="logo-wechat"></ion-icon>
+              <div class="wechat-qrcode">
+                <img src="./assets/images/wechat.png" alt="WeChat QR Code">
+              </div>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://juejin.cn/user/2771227234534013" target="_blank" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
             </a>
           </li>
 
@@ -172,23 +176,23 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>关于</button>
+            <button class="navbar-link  active" data-nav-link>关于我</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link>项目经历</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>作品</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>文章</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <button class="navbar-link" data-nav-link>联系我</button>
           </li>
 
         </ul>
@@ -203,25 +207,18 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="关于">
+      <article class="about  active" data-page="关于我">
 
         <header>
-          <h2 class="h2 article-title">个人简介</h2>
+          <h2 class="h2 article-title">个人优势</h2>
         </header>
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            拥有6+年全栈开发经验，具备从0到1独立完成前端(React/Vue)、后端(Node.js/Go)、DevOps(Docker/K8s)及云原生部署的闭环交付能力，主导过10+个中大型项目技术落地，擅长通过技术选型优化研发效率。
           </p>
-
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            拥有良好的代码规范和文档习惯，致力于提升系统的可维护性和扩展性。熟悉敏捷开发流程，能够高效协同团队成员，确保项目按时高质量交付。对新技术保持敏感，乐于分享并积极推动团队技术成长。具备解决复杂问题的能力，能够在快速迭代的环境中保持项目的稳定推进。
           </p>
         </section>
 
@@ -232,22 +229,22 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">技术栈</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
+                <img src="./assets/images/icon-jiagou.svg
                 " alt="design icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <h4 class="h4 service-item-title">架构</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                  拥有自定义脚手架的能力，可搭建monorepo项目，包括前端工具链选型、定制构建流程与打包优化、制定团队代码规范及工具配置，全方位满足项目需求。
                 </p>
               </div>
 
@@ -256,14 +253,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="Web development icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title">工程化</h4>
 
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                  精通Webpack、Vite、Rollup等前端工具，理解其核心原理与差异，有丰富的插件编写经验，已发布插件至npm，服务于多个项目。
                 </p>
               </div>
 
@@ -272,14 +269,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/icon-kuangjia.svg" alt="mobile app icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <h4 class="h4 service-item-title">框架</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+                  精通Vue2/3、React等现代前端框架，理解两个框架之间的核心原理以及差异。拥有两大框架开发多个大型项目的业务经验，对两大框架的周边生态有一定的心得和体会。
                 </p>
               </div>
 
@@ -288,14 +285,78 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/icon-app.svg" alt="开源贡献" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
+                <h4 class="h4 service-item-title">C端开发</h4>
 
                 <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                  熟练使用UniAPP、Taro等跨端框架独立开发微信小程序，拥有使用ReactNative开发IOS和Android原生应用的开发经验，熟悉Electron能够运用Electron制作桌面应用。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="性能优化" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">性能优化</h4>
+
+                <p class="service-item-text">
+                  掌握前端常见性能优化手段，包括代码分割、懒加载、资源优化、SSR服务端渲染等技术，显著降低FCP和LCP时间，提升用户交互体验。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-weiqianduan.svg" alt="微前端" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">微前端</h4>
+
+                <p class="service-item-text">
+                  具备丰富的微前端架构经验，熟悉qiankun、wujie等实现方式，能将单体应用重构为独立部署的子应用，提升开发效率与代码可维护性。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-houduan.svg" alt="后端能力" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">后端能力</h4>
+
+                <p class="service-item-text">
+                  熟悉Node.js和Go框架，能设计实现Restful API。掌握MySql、Redis、MongoDB的基本使用，可设计数据库模型并执行CRUD操作。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-kaiyuan.svg" alt="开源贡献" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">开源贡献</h4>
+
+                <p class="service-item-text">
+                  作为开源项目 ThinkTS框架 的作者，致力于打造高效、易用的开发工具，积极参与开源社区，推动技术生态发展 (www.think-ts.cn、www.think-go.com.cn)
                 </p>
               </div>
 
@@ -312,26 +373,43 @@
 
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <h3 class="h3 testimonials-title">工作经历</h3>
 
-          <ul class="testimonials-list has-scrollbar">
+          <ul class="testimonials-list has-scrollbar dragscroll">
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/kunlun.png" alt="昆仑万维" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>昆仑万维</h4>
+
+                <p data-testimonials-time style="display: none;">2023.02-2025.02</p>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    主要负责前端开发和技术攻关，参与了多个核心项目。在天工AI对话平台组件库项目中，我参与了需求分析、组件设计和开发，优化了组件性能和用户体验。在AI游戏相关业务中，我负责设计交互界面和开发游戏官网及B端配置系统，优化了功能性能和渲染效率。此外，我还通过技术选型、性能优化和自定义工具，提升了项目的开发效率和用户体验，推动了多个创新项目的成功落地。
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/meituan.webp" alt="美团" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>美团中台</h4>
+
+                <p data-testimonials-time style="display: none;">2020.11-2023.02</p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    作为技术主R，主导了金刚低代码页面搭建平台的架构设计与核心功能开发，带领团队完成工作台开发，优化了webpack构建流程，提升了系统性能和安全性。同时，我推动了微前端架构的落地，解决了巨石应用的维护难题，提升了系统的可维护性和开发效率。通过协调团队资源、制定开发规范和推动技术优化，我成功提升了团队协作效率和项目交付质量。
                   </p>
                 </div>
 
@@ -342,62 +420,16 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/xianshengyaoye.webp" alt="先声药业" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>先声药业</h4>
+
+                <p data-testimonials-time style="display: none;">2017.09-2020.11</p>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    主要负责全栈开发与性能优化工作，涵盖了从桌面应用到数据可视化大屏的多个项目。我独立设计并开发了基因测序仪桌面报告管理程序，从前端到后端全栈实现，确保系统功能完备且性能稳定，成功通过医疗器械软件报证答辩。此外，我还负责全国医药代表销售数据大屏的前端开发，使用Vue和Echarts实现数据可视化，并通过ReactNative开发移动端应用，优化数据加载性能，支持日均10万+数据量的实时渲染。我封装了多个可视化组件并发布到npm库，提升了开发效率与系统稳定性。
                   </p>
                 </div>
 
@@ -425,7 +457,7 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                <img src="./assets/images/meituan.webp" alt="图片占位" width="80" data-modal-img>
               </figure>
 
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
@@ -433,17 +465,13 @@
 
             <div class="modal-content">
 
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <h4 class="h3 modal-title" data-modal-title>标题占位</h4>
 
-              <time datetime="2021-06-14">14 June, 2021</time>
+              <time data-modal-time>时间占位</time>
 
               <div data-modal-text>
                 <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  文字占位
                 </p>
               </div>
 
@@ -460,43 +488,43 @@
 
         <section class="clients">
 
-          <h3 class="h3 clients-title">Clients</h3>
+          <h3 class="h3 clients-title">语言</h3>
 
-          <ul class="clients-list has-scrollbar">
+          <ul class="clients-list has-scrollbar dragscroll">
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              <a>
+                <img src="./assets/images/logo-9-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              <a>
+                <img src="./assets/images/logo-8-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              <a>
+                <img src="./assets/images/logo-10-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              <a>
+                <img src="./assets/images/logo-11-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              <a>
+                <img src="./assets/images/logo-12-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              <a>
+                <img src="./assets/images/logo-13-color.png" alt="client logo">
               </a>
             </li>
 
@@ -514,10 +542,10 @@
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+      <article class="resume" data-page="项目经历">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title">项目经历</h2>
         </header>
 
         <section class="timeline">
@@ -527,48 +555,31 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3">昆仑万维科技股份有限公司</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">天工AI对话平台组件库</h4>
 
-              <span>2007 — 2008</span>
+              <span>Vite、VitePress、PWA、Tailwind、Pinia、Monorepo、Vue3、MarkdownIT、KaTeX</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                天工是一款支持搜索、写作、对话、文档分析、作图、作曲等的全能型AI助手。为了提升平台开发效率，保证各平台间的一致性和可维护性，决定开发一套统一的UI组件库供业务开发去使用
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+              <h4 class="h4 timeline-item-title">AI游戏相关业务</h4>
 
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
+              <span>Vite、PWA、Tailwind、Pinia、MarkdownIT、Vue3、NaiveUI、Three.js</span>
 
               <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                公司拥有丰富的AI技术资源，为探索AI在游戏领域的应用，成立了AI游戏组。进行了一系列游戏和AI结合的相关业务开发，包括AI游戏建模，AI NPC培养，AI剧本杀等创新项目
               </p>
 
             </li>
@@ -584,49 +595,71 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <h3 class="h3">美团游戏中台</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">金刚低代码页面搭建平台</h4>
 
-              <span>2015 — Present</span>
+              <span>React18+ReactDnd+ReduxToolkit+aHooks+SSO+UAC</span>
 
               <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+                该平台是一个基于内部自研Canvas引擎的创新工具，旨在通过直观的拖拽操作，将定制化组件快速整合为高质量的营销页面。显著降低了开发门槛，提升了页面搭建效率，满足多样化的营销需求
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
+              <h4 class="h4 timeline-item-title">微前端解决巨石应用</h4>
 
-              <span>2013 — 2015</span>
+              <span>React+Vue+qiankun+SSO+UAC</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                随着业务快速增长，项目维护复杂度上升，因此引入微前端架构，将单体应用拆分为独立子应用，支持多技术栈灵活选择与独立开发部署，显著提升系统可维护性和开发效率
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">先声药业集团有限公司</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">测序仪桌面报告管理程序</h4>
+
+              <span>Node.js、Koa、Python、Qt5、Vue</span>
+
+              <p class="timeline-text">
+                基因测序仪器生成的检测数据直接存储于数据库，但缺乏对关键指标的分类汇总与可视化分析，导致数据解读效率低下。为此，开发了一款桌面报告管理程序，能够从原始数据中自动提取、分类并汇总关键指标，生成直观的可视化报告，显著提升了数据解读效率与用户体验
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Web designer</h4>
+              <h4 class="h4 timeline-item-title">全国医药代表销售数据大屏</h4>
 
-              <span>2010 — 2013</span>
+              <span>Vue、ReactNative、Echarts</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                该项目旨在为先声全国医药代表提供销售数据的实时可视化展示与分析平台。通过整合多源销售数据，利用Echarts构建动态数据大屏，支持实时监控、区域对比、业绩趋势分析等功能，帮助管理层快速掌握销售动态，优化决策效率
               </p>
 
             </li>
@@ -637,14 +670,14 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">My skills</h3>
+          <h3 class="h3 skills-title">能力提升</h3>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
+                <h5 class="h5">架构能力</h5>
                 <data value="80">80%</data>
               </div>
 
@@ -657,7 +690,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
+                <h5 class="h5">后端能力</h5>
                 <data value="70">70%</data>
               </div>
 
@@ -670,7 +703,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
+                <h5 class="h5">工程化能力</h5>
                 <data value="90">90%</data>
               </div>
 
@@ -683,12 +716,12 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
+                <h5 class="h5">业务能力</h5>
+                <data value="50">60%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="width: 60%;"></div>
               </div>
 
             </li>
@@ -707,10 +740,10 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="作品">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">作品</h2>
         </header>
 
         <section class="projects">
@@ -718,19 +751,19 @@
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+              <button class="active" data-filter-btn>所有</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>框架</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>移动端</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>工具</button>
             </li>
 
           </ul>
@@ -739,7 +772,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-selecct-value>选择分类</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -750,19 +783,19 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item>All</button>
+                <button data-select-item>所有</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>框架</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>移动端</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>工具</button>
               </li>
 
             </ul>
@@ -771,164 +804,166 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="框架">
+              <a href="https://www.think-ts.cn" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/thinkts.png" alt="thinkts" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">ThinkTS</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">一款强大的NodeJS API框架</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="框架">
+              <a href="https://think-go.com.cn" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/thinkgo.png" alt="thinkgo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">ThinkGO</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">一款轻量级的GO WEB应用框架</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="移动端">
+              <a href="https://apps.apple.com/cn/app/%E7%B2%BE%E5%87%86%E6%A3%80%E6%B5%8B%E5%B9%B3%E5%8F%B0/id1527382697"
+                target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/xiansheng.png" alt="xiansheng" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">精准检测平台</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">精准医疗解决方案供应商</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="移动端">
+              <a href="https://www.snhm.org.cn/lzdy/lz-info.htm?id=34" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/tingjian.png" alt="tingjian" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">听见万物</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">上海自然博物馆公民科学小程序</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="移动端">
+              <a href="http://www.htyscn.com" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/huatang.png" alt="huatang" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">华糖云交会</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">华糖云商搭建的厂商交流平台</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="工具">
+              <a href="https://db.think-ts.cn" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/thinktsdb.png" alt="thinktsdb" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">ThinkTSDb</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Node数据库工具库</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="工具">
+              <a href="https://marketplace.visualstudio.com/items?itemName=infinite369.code-naming-artiface"
+                target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/naming.png" alt="naming" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Summary</h3>
+                <h3 class="project-title">变量命名神器</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">VSCode插件, AI变量起名</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="工具">
+              <a href="https://www.npmjs.com/package/vite-plugin-route-prefetch" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <img src="./assets/images/viteplugin.png" alt="vite-plugin-route-prefetch" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Task Manager</h3>
+                <h3 class="project-title">vite-plugin-route-prefetch</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Vite路由懒加载注入prefetch插件</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="工具">
+              <a href="https://www.npmjs.com/package/vue3-amis" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="./assets/images/vue3amis.png" alt="tingjian" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">vue3-amis</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Vue3版的Amis编辑器和渲染器组件</p>
 
               </a>
             </li>
@@ -947,10 +982,10 @@
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+      <article class="blog" data-page="文章">
 
         <header>
-          <h2 class="h2 article-title">Blog</h2>
+          <h2 class="h2 article-title">文章</h2>
         </header>
 
         <section class="blog-posts">
@@ -958,27 +993,25 @@
           <ul class="blog-posts-list">
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://juejin.cn/post/7395862212183261234" target="_blank">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="./assets/images/article1.webp" alt="Nuxt3操作MySql和Redis" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">Nuxt3</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2024-07-27">2024-07-27</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                  <h3 class="h3 blog-item-title">Nuxt3操作MySql和Redis</h3>
 
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
+                  <!-- <p class="blog-text"></p> -->
 
                 </div>
 
@@ -986,27 +1019,25 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.jianshu.com/p/57671cd1f75d" target="_blank">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="./assets/images/article2.webp" alt="React-Native全面屏适配" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">ReactNative</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2021-01-31">2021-01-31</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                  <h3 class="h3 blog-item-title">React-Native全面屏适配</h3>
 
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
+                  <!-- <p class="blog-text"></p> -->
 
                 </div>
 
@@ -1014,27 +1045,25 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.jianshu.com/p/143c37184d47" target="_blank">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  <img src="./assets/images/blog-4.jpg" alt="React-Native封装带阴影的Card组件" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">ReactNative</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2021-01-27">2021-01-27</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+                  <h3 class="h3 blog-item-title">React-Native封装带阴影的Card组件</h3>
 
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
+                  <!-- <p class="blog-text"></p> -->
 
                 </div>
 
@@ -1042,27 +1071,25 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.jianshu.com/p/ce7ee8efd42c" target="_blank">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  <img src="./assets/images/article4.webp" alt="React-Native启动页及ICON设置" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">ReactNative</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2021-01-16">2021-01-16</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+                  <h3 class="h3 blog-item-title">React-Native启动页及ICON设置</h3>
 
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
+                  <!-- <p class="blog-text"></p> -->
 
                 </div>
 
@@ -1070,27 +1097,25 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.jianshu.com/p/1cfc8759dddb" target="_blank">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                  <img src="./assets/images/article3.webp" alt="VR全景导览开发" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">Three.js</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2019-02-12">2019-02-12</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+                  <h3 class="h3 blog-item-title">VR全景导览开发</h3>
 
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                  <!-- <p class="blog-text"></p> -->
 
                 </div>
 
@@ -1098,27 +1123,129 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.jianshu.com/p/5357f99f763d" target="_blank">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                  <img src="./assets/images/article5.webp" alt="富文本编辑器抓取秀米图片转存到七牛云" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">前端</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time datetime="2019-03-13">2019-03-13</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+                  <h3 class="h3 blog-item-title">富文本编辑器抓取秀米图片转存到七牛云</h3>
 
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
+                  <!-- <p class="blog-text"></p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.jianshu.com/p/5e2dc94f16df" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/article6.webp" alt="无线网安全之内网渗透" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">网络安全</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2018-05-27">2018-05-27</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">无线网安全之内网渗透</h3>
+
+                  <!-- <p class="blog-text"></p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.jianshu.com/p/53a7da454057" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/article7.webp" alt="前端工程师必备实用网站" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">前端</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2016-11-06">2016-11-06</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">前端工程师必备实用网站</h3>
+
+                  <!-- <p class="blog-text"></p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.jianshu.com/p/e86f442ff57a" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/article8.webp" alt="React-Native使用自定义字体" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">前端</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-01-13">2021-01-13</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">React-Native使用自定义字体</h3>
+
+                  <!-- <p class="blog-text"></p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.jianshu.com/p/6c1e122ca8f4" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/article9.webp" alt="微信小程序模板消息填坑记录" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">前端</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2018-08-27">2018-08-27</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">微信小程序模板消息填坑记录</h3>
+
+                  <!-- <p class="blog-text"></p> -->
 
                 </div>
 
@@ -1139,37 +1266,36 @@
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+      <article class="contact" data-page="联系我">
 
         <header>
-          <h2 class="h2 article-title">Contact</h2>
+          <h2 class="h2 article-title">联系我</h2>
         </header>
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
+            <iframe src="https://uri.amap.com/marker?position=116.372475,40.062772&name=北京龙宝宝软件开发中心" width="400"
+              height="300" loading="lazy"></iframe>
           </figure>
         </section>
 
         <section class="contact-form">
 
-          <h3 class="h3 form-title">Contact Form</h3>
+          <h3 class="h3 form-title">留言表单</h3>
 
           <form action="#" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" name="name" class="form-input" placeholder="请输入姓名" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="phone" name="phone" class="form-input" placeholder="请输入手机号" required data-form-input>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea name="message" class="form-input" placeholder="快来给我留个言吧～" required data-form-input></textarea>
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
+              <span>发送留言</span>
             </button>
 
           </form>
@@ -1191,6 +1317,7 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/dragscroll.js"></script>
 
   <!--
     - ionicon link
